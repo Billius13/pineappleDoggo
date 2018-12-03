@@ -7,6 +7,8 @@ clean:
 backup:
 	tar -cvzf Flowery.tar.gz *.java
 
+cleanBU:
+	rm Flowery.tar.gz
 push:
 	
 	git add .
